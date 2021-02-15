@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <title>ageapp</title>
+</head>
+
+<body>
+
+
+    <main class="container_center">
+
+        <!--FORM INPUT USER-->
+        <form class="form_input" onsubmit="handleSubmit(event)">
+
+            <label for="username">Nama</label>
+            <input type="text" id="username" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">No Wa</label>
+            <input type="phone" id="phone" required>
+
+            <label for="address">Alamat</label>
+            <input type="address" id="address" required>
+
+            <label for="birthday">Tanggal Tahun Lahir</label>
+            <input type="date" id="birthday" required>
+
+            <button type="submit">Submit</button>
+        </form>
+        <!--END FORM INPUT USER-->
+
+        <!--BACKGROUND-->
+        <div class="background">
+
+            <div class="background_left">
+                <h1 class="brand">AGEAPP</h1>
+                <p class="content">
+                    Lengkapi Data berikut dan dapatkan hadiah menarik dari kami.
+                    Syarat dan ketentuan berlaku
+                </p>
+            </div>
+
+            <div class="background_right"></div>
+
+        </div>
+        <!--END BACKGROUND-->
+
+    </main>
+
+
+    <script src='./src/js/main.js'></script>
+
+</body>
+
+</html>
